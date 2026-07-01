@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Team() {
     /* Add API and looping logic */

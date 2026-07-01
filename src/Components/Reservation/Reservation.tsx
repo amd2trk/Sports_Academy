@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Reservation() {
     const x = [1,2,3]
