@@ -1,7 +1,14 @@
 import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
+import type { Sport } from '../Navbar/Navbar'
 
-export default function Layout({ sport, setSport }) {
+export default function Layout({
+  sport,
+  setSport,
+}: {
+  sport: Sport
+  setSport: React.Dispatch<React.SetStateAction<Sport>>
+}) {
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900">
       <Navbar sport={sport} setSport={setSport} />
